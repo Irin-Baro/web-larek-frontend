@@ -6,7 +6,8 @@
     "target": "es2017",
     "allowJs": true,
     "experimentalDecorators": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+    "types": ["node"]
   },
   "include": ["src/**/*.ts", "src/types/*.d.ts"]
 }

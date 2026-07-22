@@ -54,7 +54,8 @@ const config = {
           options: {
             sourceMap: true,
             sassOptions: {
-              includePaths: ["src/scss"]
+              includePaths: ["src/scss"],
+                    silenceDeprecations: ['legacy-js-api'],
             }
           }
         }],
